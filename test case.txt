@@ -1,0 +1,21 @@
+﻿spa.year          = 2018;
+    spa.month         = 10;
+    spa.day           = 17;
+    spa.hour          = 12;
+    spa.minute        = 30;
+    spa.second        = 30;
+    spa.timezone      = -7.0;
+    spa.delta_ut1     = 0;
+    spa.delta_t       = 67;
+    spa.longitude     = -105.1786;
+    spa.latitude      = 39.742476;
+    spa.elevation     = 1830.14;
+    spa.pressure      = 820;
+    spa.temperature   = 11;
+    spa.slope         = 30;
+    spa.azm_rotation  = -10;
+    spa.atmos_refract = 0.5667;
+    spa.function      = SPA_ALL;
+
+(year, month, day, hour, minute, second, timezone,
+    longtitude, latitude)
