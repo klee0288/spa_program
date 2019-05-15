@@ -1,0 +1,319 @@
+Julian Day:    2458454.416667
+L:             6.966405e+01 degrees
+B:             -2.455697e-04 degrees
+R:             0.985996 AU
+H:             32.711844 degrees
+Delta Psi:     -4.468010e-03 degrees
+Delta Epsilon: -1.329823e-03 degrees
+Epsilon:       23.435502 degrees
+Zenith:        68.750627 degrees
+Azimuth:       212.540504 degrees
+Incidence:     48.911447 degrees
+Julian Day:    2458455.416667
+L:             7.067813e+01 degrees
+B:             -2.607504e-04 degrees
+R:             0.985845 AU
+H:             32.615651 degrees
+Delta Psi:     -4.486219e-03 degrees
+Delta Epsilon: -1.333425e-03 degrees
+Epsilon:       23.435498 degrees
+Zenith:        68.842919 degrees
+Azimuth:       212.384407 degrees
+Incidence:     48.928800 degrees
+Julian Day:    2458456.416667
+L:             7.169261e+01 degrees
+B:             -2.677432e-04 degrees
+R:             0.985697 AU
+H:             32.516838 degrees
+Delta Psi:     -4.498455e-03 degrees
+Delta Epsilon: -1.341922e-03 degrees
+Epsilon:       23.435489 degrees
+Zenith:        68.928091 degrees
+Azimuth:       212.229678 degrees
+Incidence:     48.940585 degrees
+Julian Day:    2458457.416667
+L:             7.270744e+01 degrees
+B:             -2.662149e-04 degrees
+R:             0.985553 AU
+H:             32.415519 degrees
+Delta Psi:     -4.500543e-03 degrees
+Delta Epsilon: -1.353469e-03 degrees
+Epsilon:       23.435477 degrees
+Zenith:        69.006121 degrees
+Azimuth:       212.076419 degrees
+Incidence:     48.946807 degrees
+Julian Day:    2458458.416667
+L:             7.372262e+01 degrees
+B:             -2.562843e-04 degrees
+R:             0.985411 AU
+H:             32.311811 degrees
+Delta Psi:     -4.490820e-03 degrees
+Delta Epsilon: -1.365710e-03 degrees
+Epsilon:       23.435464 degrees
+Zenith:        69.076992 degrees
+Azimuth:       211.924734 degrees
+Incidence:     48.947476 degrees
+Julian Day:    2458459.416667
+L:             7.473811e+01 degrees
+B:             -2.385146e-04 degrees
+R:             0.985273 AU
+H:             32.205841 degrees
+Delta Psi:     -4.470254e-03 degrees
+Delta Epsilon: -1.376368e-03 degrees
+Epsilon:       23.435453 degrees
+Zenith:        69.140690 degrees
+Azimuth:       211.774733 degrees
+Incidence:     48.942607 degrees
+Julian Day:    2458460.416667
+L:             7.575389e+01 degrees
+B:             -2.138843e-04 degrees
+R:             0.985138 AU
+H:             32.097735 degrees
+Delta Psi:     -4.441930e-03 degrees
+Delta Epsilon: -1.383710e-03 degrees
+Epsilon:       23.435446 degrees
+Zenith:        69.197203 degrees
+Azimuth:       211.626524 degrees
+Incidence:     48.932217 degrees
+Julian Day:    2458461.416667
+L:             7.676993e+01 degrees
+B:             -1.837349e-04 degrees
+R:             0.985006 AU
+H:             31.987626 degrees
+Delta Psi:     -4.410096e-03 degrees
+Delta Epsilon: -1.386783e-03 degrees
+Epsilon:       23.435442 degrees
+Zenith:        69.246524 degrees
+Azimuth:       211.480217 degrees
+Incidence:     48.916326 degrees
+Julian Day:    2458462.416667
+L:             7.778621e+01 degrees
+B:             -1.497001e-04 degrees
+R:             0.984877 AU
+H:             31.875645 degrees
+Delta Psi:     -4.379143e-03 degrees
+Delta Epsilon: -1.385417e-03 degrees
+Epsilon:       23.435443 degrees
+Zenith:        69.288646 degrees
+Azimuth:       211.335921 degrees
+Incidence:     48.894956 degrees
+Julian Day:    2458463.416667
+L:             7.880271e+01 degrees
+B:             -1.136185e-04 degrees
+R:             0.984752 AU
+H:             31.761927 degrees
+Delta Psi:     -4.352862e-03 degrees
+Delta Epsilon: -1.380118e-03 degrees
+Epsilon:       23.435448 degrees
+Zenith:        69.323566 degrees
+Azimuth:       211.193744 degrees
+Incidence:     48.868131 degrees
+Julian Day:    2458464.416667
+L:             7.981940e+01 degrees
+B:             -7.743628e-05 degrees
+R:             0.984631 AU
+H:             31.646607 degrees
+Delta Psi:     -4.334031e-03 degrees
+Delta Epsilon: -1.371925e-03 degrees
+Epsilon:       23.435456 degrees
+Zenith:        69.351282 degrees
+Azimuth:       211.053793 degrees
+Incidence:     48.835878 degrees
+Julian Day:    2458465.416667
+L:             8.083628e+01 degrees
+B:             -4.310408e-05 degrees
+R:             0.984514 AU
+H:             31.529823 degrees
+Delta Psi:     -4.324226e-03 degrees
+Delta Epsilon: -1.362248e-03 degrees
+Epsilon:       23.435465 degrees
+Zenith:        69.371795 degrees
+Azimuth:       210.916175 degrees
+Incidence:     48.798227 degrees
+Julian Day:    2458466.416667
+L:             8.185332e+01 degrees
+B:             -1.247319e-05 degrees
+R:             0.984401 AU
+H:             31.411710 degrees
+Delta Psi:     -4.323698e-03 degrees
+Delta Epsilon: -1.352674e-03 degrees
+Epsilon:       23.435474 degrees
+Zenith:        69.385112 degrees
+Azimuth:       210.780994 degrees
+Incidence:     48.755209 degrees
+Julian Day:    2458467.416667
+L:             8.287050e+01 degrees
+B:             1.280259e-05 degrees
+R:             0.984292 AU
+H:             31.292407 degrees
+Delta Psi:     -4.331326e-03 degrees
+Delta Epsilon: -1.344740e-03 degrees
+Epsilon:       23.435482 degrees
+Zenith:        69.391241 degrees
+Azimuth:       210.648353 degrees
+Incidence:     48.706859 degrees
+Julian Day:    2458468.416667
+L:             8.388782e+01 degrees
+B:             3.135478e-05 degrees
+R:             0.984188 AU
+H:             31.172052 degrees
+Delta Psi:     -4.344679e-03 degrees
+Delta Epsilon: -1.339739e-03 degrees
+Epsilon:       23.435487 degrees
+Zenith:        69.390193 degrees
+Azimuth:       210.518354 degrees
+Incidence:     48.653215 degrees
+Julian Day:    2458469.416667
+L:             8.490526e+01 degrees
+B:             4.217281e-05 degrees
+R:             0.984088 AU
+H:             31.050783 degrees
+Delta Psi:     -4.360192e-03 degrees
+Delta Epsilon: -1.338595e-03 degrees
+Epsilon:       23.435487 degrees
+Zenith:        69.381983 degrees
+Azimuth:       210.391096 degrees
+Incidence:     48.594316 degrees
+Julian Day:    2458470.416667
+L:             8.592281e+01 degrees
+B:             4.465773e-05 degrees
+R:             0.983995 AU
+H:             30.928737 degrees
+Delta Psi:     -4.373386e-03 degrees
+Delta Epsilon: -1.341737e-03 degrees
+Epsilon:       23.435484 degrees
+Zenith:        69.366630 degrees
+Azimuth:       210.266676 degrees
+Incidence:     48.530204 degrees
+Julian Day:    2458471.416667
+L:             8.694047e+01 degrees
+B:             3.865395e-05 degrees
+R:             0.983906 AU
+H:             30.806048 degrees
+Delta Psi:     -4.379247e-03 degrees
+Delta Epsilon: -1.348878e-03 degrees
+Epsilon:       23.435476 degrees
+Zenith:        69.344155 degrees
+Azimuth:       210.145185 degrees
+Incidence:     48.460925 degrees
+Julian Day:    2458472.416667
+L:             8.795823e+01 degrees
+B:             2.445754e-05 degrees
+R:             0.983823 AU
+H:             30.682848 degrees
+Delta Psi:     -4.373010e-03 degrees
+Delta Epsilon: -1.358747e-03 degrees
+Epsilon:       23.435466 degrees
+Zenith:        69.314583 degrees
+Azimuth:       210.026713 degrees
+Incidence:     48.386525 degrees
+Julian Day:    2458473.416667
+L:             8.897610e+01 degrees
+B:             2.800491e-06 degrees
+R:             0.983747 AU
+H:             30.559265 degrees
+Delta Psi:     -4.351570e-03 degrees
+Delta Epsilon: -1.368986e-03 degrees
+Epsilon:       23.435456 degrees
+Zenith:        69.277941 degrees
+Azimuth:       209.911343 degrees
+Incidence:     48.307050 degrees
+Julian Day:    2458474.416667
+L:             8.999408e+01 degrees
+B:             -2.518810e-05 degrees
+R:             0.983676 AU
+H:             30.435425 degrees
+Delta Psi:     -4.315137e-03 degrees
+Delta Epsilon: -1.376525e-03 degrees
+Epsilon:       23.435448 degrees
+Zenith:        69.234259 degrees
+Azimuth:       209.799157 degrees
+Incidence:     48.222551 degrees
+Julian Day:    2458475.416667
+L:             9.101218e+01 degrees
+B:             -5.804197e-05 degrees
+R:             0.983612 AU
+H:             30.311453 degrees
+Delta Psi:     -4.268237e-03 degrees
+Delta Epsilon: -1.378481e-03 degrees
+Epsilon:       23.435445 degrees
+Zenith:        69.183570 degrees
+Azimuth:       209.690231 degrees
+Incidence:     48.133079 degrees
+Julian Day:    2458476.416667
+L:             9.203040e+01 degrees
+B:             -9.403552e-05 degrees
+R:             0.983555 AU
+H:             30.187470 degrees
+Delta Psi:     -4.219069e-03 degrees
+Delta Epsilon: -1.373260e-03 degrees
+Epsilon:       23.435450 degrees
+Zenith:        69.125909 degrees
+Azimuth:       209.584642 degrees
+Incidence:     48.038687 degrees
+Julian Day:    2458477.416667
+L:             9.304877e+01 degrees
+B:             -1.312754e-04 degrees
+R:             0.983504 AU
+H:             30.063599 degrees
+Delta Psi:     -4.177058e-03 degrees
+Delta Epsilon: -1.361315e-03 degrees
+Epsilon:       23.435462 degrees
+Zenith:        69.061309 degrees
+Azimuth:       209.482467 degrees
+Incidence:     47.939429 degrees
+Julian Day:    2458478.416667
+L:             9.406728e+01 degrees
+B:             -1.678009e-04 degrees
+R:             0.983460 AU
+H:             29.939960 degrees
+Delta Psi:     -4.149572e-03 degrees
+Delta Epsilon: -1.345092e-03 degrees
+Epsilon:       23.435478 degrees
+Zenith:        68.989809 degrees
+Azimuth:       209.383782 degrees
+Incidence:     47.835363 degrees
+Julian Day:    2458479.416667
+L:             9.508595e+01 degrees
+B:             -2.016882e-04 degrees
+R:             0.983421 AU
+H:             29.816677 degrees
+Delta Psi:     -4.139425e-03 degrees
+Delta Epsilon: -1.328174e-03 degrees
+Epsilon:       23.435494 degrees
+Zenith:        68.911446 degrees
+Azimuth:       209.288666 degrees
+Incidence:     47.726550 degrees
+Julian Day:    2458480.416667
+L:             9.610478e+01 degrees
+B:             -2.311523e-04 degrees
+R:             0.983389 AU
+H:             29.693876 degrees
+Delta Psi:     -4.144349e-03 degrees
+Delta Epsilon: -1.314058e-03 degrees
+Epsilon:       23.435508 degrees
+Zenith:        68.826264 degrees
+Azimuth:       209.197199 degrees
+Incidence:     47.613055 degrees
+Julian Day:    2458481.416667
+L:             9.712377e+01 degrees
+B:             -2.546419e-04 degrees
+R:             0.983362 AU
+H:             29.571683 degrees
+Delta Psi:     -4.158430e-03 degrees
+Delta Epsilon: -1.305110e-03 degrees
+Epsilon:       23.435517 degrees
+Zenith:        68.734312 degrees
+Azimuth:       209.109465 degrees
+Incidence:     47.494953 degrees
+Julian Day:    2458482.416667
+L:             9.814291e+01 degrees
+B:             -2.709216e-04 degrees
+R:             0.983341 AU
+H:             29.450232 degrees
+Delta Psi:     -4.174477e-03 degrees
+Delta Epsilon: -1.302100e-03 degrees
+Epsilon:       23.435519 degrees
+Zenith:        68.635643 degrees
+Azimuth:       209.025550 degrees
+Incidence:     47.372324 degrees
