@@ -1262,94 +1262,111 @@ int main(int argc, char *argv[])
     struct TIME startTime, stopTime, diff;
     struct Date dt1; 
     struct Date dt2;
-    char *yesno;
-    char *y = "yes";
+    //=================================== Josh's Desire ===============================
+    // Time interval 
+    // Station Input 
+    // Double click form to run it .exe
+    // Try to get the air mass 
+    // Day of the year + Fraction of the day 
+    // 2018/06/22 -> 2018/173 accepts inputs 
+    //================================================================================= 
+    //================================================================================= 
+    //============================= INPUT ACTION ====================================== 
+    
     FILE *f = fopen("output.txt", "w"); 
-    printf("Enter Start Date YYYY/MM/DD: ");
-    scanf("%d/%d/%d", &dt1.y, &dt1.m, &dt1.d);
-    printf("Enter Start Time HH:MM:SS: ");
-    scanf("%d:%d:%d", &startTime.hours, &startTime.minutes, &startTime.seconds);
-    printf("Enter End Date YYYY/MM/DD: ");
-    scanf("%d/%d/%d", &dt2.y, &dt2.m, &dt2.d);
-    printf("Enter Stop Time HH:MM:SS: ");
-    scanf("%d:%d:%d", &stopTime.hours, &stopTime.minutes, &stopTime.seconds);
-    printf("\n\nStart: %d/%d/%d ", dt1.y, dt1.m, dt1.d);
-    printf("at %d:%d:%d \n", startTime.hours, startTime.minutes, startTime.seconds);
-    printf("End: %d/%d/%d ", dt2.y, dt2.m, dt2.d);
-    printf("at %d:%d:%d \n", stopTime.hours, stopTime.minutes, stopTime.seconds);
-    // printf("Is this correct? (yes/no) ");
-    // scanf("%s", yesno);
-    // if (strcmp(yesno, y) != 0){
-    //     exit(0);
-    // }
+    // printf("Enter Start Date YYYY/MM/DD: ");
+    // scanf("%d/%d/%d", &dt1.y, &dt1.m, &dt1.d);
+    // // printf("Enter Start Time HH:MM:SS: ");
+    // // scanf("%d:%d:%d", &startTime.hours, &startTime.minutes, &startTime.seconds);
+    // printf("Enter End Date YYYY/MM/DD: \n");
+    // scanf("%d/%d/%d", &dt2.y, &dt2.m, &dt2.d);
+    // printf("Enter Station (EUO): \n");          //built in stations 
+    // printf("Enter Time Interval (Seconds): ");
 
+    //==================================DEFAULT ========================================
+    dt1.y = 2018;
+    dt1.m = 06;
+    dt1.d = 1;
+    dt2.y = 2018;
+    dt2.m = 06;
+    dt2.d = 30;
+    //=====================================================================================================================
+    //=====================================================================================================================
+    //=====================================================================================================================
+    //==============================================SPA CALCULATION START==================================================
+    //=====================================================================================================================
+    //=====================================================================================================================
+    //=====================================================================================================================
+    //=====================================================================================================================
 
-    // Calculate the difference between the start and stop time period.
-    differenceBetweenTimePeriod(startTime, stopTime, &diff);
-
-    printf("\nTIME DIFFERENCE: %d:%d:%d - ", startTime.hours, startTime.minutes, startTime.seconds);
-    printf("%d:%d:%d ", stopTime.hours, stopTime.minutes, stopTime.seconds);
-    printf("= %d:%d:%d\n", diff.hours, diff.minutes, diff.seconds);
-    int difference = getDifference(dt1, dt2);
-    printf("Difference between two dates is %d\n", difference); 
-
-
-
-    // SPA CALCULATION START ========================
     spa_data spa;  //declare the SPA structure
     int result;
-    float min, sec;
     // if (dt1.y != dt2.y){
     //     printf("Elapsed year is different! Kevin you need to implement this");
     //     exit(0);
     // }
-    for (int day = 0; day < 30; day++){        
-        spa.year = dt1.y;
-        spa.month         = dt1.m;
-        spa.day           = day;
-        spa.hour          = 14;
-        spa.minute        = 00;
-        spa.second        = 00;
-        spa.timezone      = -8.0;
-        spa.delta_ut1     = 0;
-        spa.delta_t       = 67;
-        spa.longitude     = -120;
-        spa.latitude      = 39.742476;
-        spa.elevation     = 1000;
-        spa.pressure      = 820;
-        spa.temperature   = 11;
-        spa.slope         = 30;
-        spa.azm_rotation  = -10;
-        spa.atmos_refract = 0.5667;
-        spa.function      = SPA_ALL;
+ 
+    fprintf(f, "Julian Day\tDate\tTime\tZenith Angle (Degrees)\tAzimuthal Angle (Degrees)\n");
+    for (int day = 1; day < 30; day++){ 
+        int hour = 00; 
+        while (hour != 24){
+            int min = 00;
+            while(min != 60){
+                spa.year = dt1.y;
+                spa.month         = dt1.m;
+                spa.day           = day; 
+                spa.hour          = hour;
+                spa.minute        = min;
+                spa.second        = 00;
+                spa.timezone      = -8.0;
+                spa.delta_ut1     = 0;
+                spa.delta_t       = 67;
+                spa.longitude     = -120;
+                spa.latitude      = -39.742476;
+                spa.elevation     = 1000;
+                spa.pressure      = 820;
+                spa.temperature   = 11;
+                spa.slope         = 30;
+                spa.azm_rotation  = -10;
+                spa.atmos_refract = 0.5667;
+                spa.function      = SPA_ALL;
 
-        result = spa_calculate(&spa);
-        if (result == 0)  //check for SPA errors
-    {
-    //     //SAVING TO output.txt
-        
-        fprintf(f, "Julian Day:    %.6f\n",spa.jd);
-        fprintf(f, "L:             %.6e degrees\n",spa.l);
-        fprintf(f, "B:             %.6e degrees\n",spa.b);
-        fprintf(f, "R:             %.6f AU\n",spa.r);
-        fprintf(f, "H:             %.6f degrees\n",spa.h);
-        fprintf(f, "Delta Psi:     %.6e degrees\n",spa.del_psi);
-        fprintf(f, "Delta Epsilon: %.6e degrees\n",spa.del_epsilon);
-        fprintf(f, "Epsilon:       %.6f degrees\n",spa.epsilon);
-        fprintf(f, "Zenith:        %.6f degrees\n",spa.zenith);
-        fprintf(f, "Azimuth:       %.6f degrees\n",spa.azimuth);
-        fprintf(f, "Incidence:     %.6f degrees\n",spa.incidence);
+                result = spa_calculate(&spa);
+                min += 1;
+                if (result == 0)  //check for SPA errors
+                {
+                    //SAVING TO output.txt
+                    fprintf(f, "%.6f\t",spa.jd);
+                    fprintf(f, "%d/%d/%d\t%d:%d:%d\t", spa.year, spa.month, spa.day, 
+                    spa.hour, spa.minute, spa.second);
+                    // fprintf(f, "L:             %.6e degrees\n",spa.l);
+                    // fprintf(f, "B:             %.6e degrees\n",spa.b);
+                    // fprintf(f, "R:             %.6f AU\n",spa.r);
+                    // fprintf(f, "H:             %.6f degrees\n",spa.h);
+                    // fprintf(f, "Delta Psi:     %.6e degrees\n",spa.del_psi);
+                    // fprintf(f, "Delta Epsilon: %.6e degrees\n",spa.del_epsilon);
+                    // fprintf(f, "Epsilon:       %.6f degrees\n",spa.epsilon);
+                    fprintf(f, "%.6f\t",spa.zenith);
+                    fprintf(f, "%.6f\t",spa.azimuth);
+                    // fprintf(f, "Incidence:     %.6f degrees\n",spa.incidence);
+                    fprintf(f, "\n");
+                    // min = 60.0*(spa.sunrise - (int)(spa.sunrise));
+                    // sec = 60.0*(min - (int)min);
+                    // printf("Sunrise:       %02d:%02d:%02d Local Time\n", (int)(spa.sunrise), (int)min, (int)sec);
 
-        min = 60.0*(spa.sunrise - (int)(spa.sunrise));
-        sec = 60.0*(min - (int)min);
-        printf("Sunrise:       %02d:%02d:%02d Local Time\n", (int)(spa.sunrise), (int)min, (int)sec);
+                    // min = 60.0*(spa.sunset - (int)(spa.sunset));
+                    // sec = 60.0*(min - (int)min);
+                    // printf("Sunset:        %02d:%02d:%02d Local Time\n", (int)(spa.sunset), (int)min, (int)sec);
 
-        min = 60.0*(spa.sunset - (int)(spa.sunset));
-        sec = 60.0*(min - (int)min);
-        printf("Sunset:        %02d:%02d:%02d Local Time\n", (int)(spa.sunset), (int)min, (int)sec);
+                } 
+                else printf("Date Time Error: %d at %d:%d \n", day, hour,min);
+                // printf("SPA Error Code: %d", result);
 
-    } else printf("SPA Error Code: %d\n", result);
+            }
+        hour += 1; 
+        }
     }
-  
-    return 0; 
+    printf("\n\nOutputted file without any errors!\nCheck your current working directory for output.txt\n");
+
+    return 0;
 } 
